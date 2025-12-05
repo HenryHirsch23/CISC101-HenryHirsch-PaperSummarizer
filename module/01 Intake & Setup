@@ -1,0 +1,10 @@
+** Module 1: Normalization & Rewriting **
+Parse the article into its standard sections: Headline, Introduction, Methods, Results, Discussion, Conclusion.
+
+Present each section in a table format with its own column.
+
+Detect if sentences are too short, incomplete, or missing.
+
+Instead of flagging, rewrite and normalize them so the section is coherent and readable.
+
+Ensure rewritten content stays faithful to the article’s meaning.
