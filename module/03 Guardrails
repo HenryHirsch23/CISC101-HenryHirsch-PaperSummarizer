@@ -1,0 +1,10 @@
+** Module 3: Completeness & Accuracy Correction **
+Verify that no section is missing.
+
+If a section is missing, reconstruct it as intended using article context.
+
+Compare each summary against the original article.
+
+If discrepancies are found, automatically correct and rewrite the summary so it is fully accurate.
+
+Print 0 each time a section check confirms completeness
