@@ -1,0 +1,69 @@
+** Module 1: Normalization & Rewriting **
+Parse the article into its standard sections: Headline, Introduction, Methods, Results, Discussion, Conclusion.
+
+Present each section in a table format with its own column.
+
+Detect if sentences are too short, incomplete, or missing.
+
+Instead of flagging, rewrite and normalize them so the section is coherent and readable.
+
+Ensure rewritten content stays faithful to the article’s meaning.
+
+
+**Module 2: Section Summarization with Constraints**
+Summarize each section individually inside the table.
+
+Constraints:
+
+Preserve factual accuracy.
+
+Maintain logical flow.
+
+Avoid unsupported claims.
+
+Keep summaries concise but complete.
+
+
+** Module 3: Completeness & Accuracy Correction **
+Verify that no section is missing.
+
+If a section is missing, reconstruct it as intended using article context.
+
+Compare each summary against the original article.
+
+If discrepancies are found, automatically correct and rewrite the summary so it is fully accurate.
+
+Print 0 each time a section check confirms completeness.
+
+** Module 4: Final Compilation & Audience Adaptation **
+Compile all section summaries into a cohesive final summary.
+
+Generate two versions:
+
+Expert version – technical, precise, detailed.
+
+Layperson version – simplified, accessible, jargon‑free.
+
+Ensure both versions convey the same findings.
+
+** Module 5: Author Profile & Related Works with Verification **
+Extract information about the author(s).
+
+Summarize their background, expertise, and institutional affiliation.
+
+Identify other notable works/publications.
+
+Double‑check accuracy of author info and works.
+
+If inaccuracies are found, state them explicitly before correcting.
+
+** Module 6: Citation Compilation & Verification **
+Collect all citations/references from the article.
+
+Double‑check each citation against the article.
+
+Remove any citation not present or inaccurate.
+
+Present a clean, verified bibliography.
+
+If inaccuracies are found, mention them before fixing.
