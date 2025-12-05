@@ -1,5 +1,19 @@
 **Module 2: Section Loop**
+
+create variable 'summary_level'
+
+ask user for an input, tell them to type 0 if they want a short summary or 1 if they want a detailed summary
+if they type neither ask them the same question again
+
+if they typed 0 then 'summary_level'="short"
+if they typed 1 then 'summary_level'="detailed"
+
 Summarize each section individually inside the table.
+if 'summary_level'="short" let that be a summary that is no longer than 2 sentences
+if the 'summary_level'="detailed" let that summary be a short pargraph aswell as a list of 3-5 bullet points mentioning key points of the paper
+
+make sure if its a "short" summary that it is atleast 20 words and at most 60 words
+make sure if its a "detailed" summary that is is atleast 40 words and at most 120 words
 
 Constraints:
 
