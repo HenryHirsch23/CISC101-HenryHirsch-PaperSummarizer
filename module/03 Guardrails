@@ -1,10 +1,19 @@
 ** Module 3: Completeness & Accuracy Correction **
+
+create variable 'strict_mode'
+ask for user input asking if they want to use strict mode. 0 for no, 1 for yes.
+if user types 0 then 'strict_mode'="False"
+if user types 1 then 'strict_mode'="True"
+if anything else is typed say that it is not a valid answer and ask the question again
+
 Verify that no section is missing.
 
 If a section is missing, reconstruct it as intended using article context.
+If the article doesnt have enough info for the given section say "section skipped: not enough text for section" 
 
 Compare each summary against the original article.
 
+If 'strict_mode'="true" then any info not coming directly from the article is a discrepancie
 If discrepancies are found, automatically correct and rewrite the summary so it is fully accurate.
 
-Print 0 each time a section check confirms completeness
+If a section cannot be summerized due to lack of info say "The source text does not provide enough detail to summarize this section in strict mode.” 
